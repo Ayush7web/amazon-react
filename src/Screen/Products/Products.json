@@ -1,0 +1,39 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "name": "A trendy smaRTphone Airdopes 141 Bluetooth TWS Earbuds with 42H Playtime,Low Latency Mode for Gaming, ENx Tech, IWP, IPX4 Water Resistanc...",
+      "price": 67999,
+      "item": 1,
+      "imageUrl": "https://m.media-amazon.com/images/I/81lRPeeHZgL._SY879_.jpg"
+    },
+    {
+      "id": "2",
+      "name": "boAt Airdopes 141 Bluetooth TWS Earbuds with 42H Playtime,Low Latency Mode for Gaming, ENx Tech, IWP, IPX4 Water Resistanc...",
+      "price": 1299,
+      "item": 1,
+      "imageUrl": "https://m.media-amazon.com/images/I/61KNJav3S9L._AC_UL480_QL65_.jpg"
+    },
+    {
+      "id": "3",
+      "name": "boAt Immortal 121 in Ear TWS Earbuds with Beast Mode(40ms Low Latency) for Gaming, 40H Playtime, Blazing LEDs, Quad Mics...",
+      "price": 999,
+      "item": 1,
+      "imageUrl": "https://m.media-amazon.com/images/I/61q-2yzbBtL._AC_UL480_QL65_.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Iphone 121 in Ear TWS Earbuds with Beast Mode(40ms Low Latency) for Gaming, 40H Playtime, Blazing LEDs, Quad Mics ENx Sign...",
+      "price": 79999,
+      "item": 1,
+      "imageUrl": "https://m.media-amazon.com/images/I/71v2jVh6nIL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Xiaomi Pad 6| Qualcomm Snapdragon 870| Powered by HyperOS | 144Hz Refresh Rate| 6GB, 128GB| 2.8K+ Display ...",
+      "price": 24999,
+      "item": 1,
+      "imageUrl": "https://m.media-amazon.com/images/I/71LRY1j6UHL._AC_UY327_FMwebp_QL65_.jpg"
+    }
+  ]
+}

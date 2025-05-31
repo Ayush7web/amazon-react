@@ -1,0 +1,74 @@
+.homeBanner {
+  width: 100%;
+  height: 1100px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+
+.homeBannerimg {
+  height: 80vh;
+  width: 100% !important;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.grayBackgroundHomeBanner {
+  background-color: rgb(238, 235, 235);
+  height: 80vh;
+}
+
+/*----------------------------------------------*/
+.homeBannerItemDiv {
+  display: grid;
+  /* grid-template-columns: auto auto auto auto;
+     */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  top: 22%;
+  inset-inline: 0;
+  padding: 0 20px;
+  position: absolute;
+}
+.homeBannerItemDivCard {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 343px;
+  box-sizing: border-box;
+  padding: 20px 0 15px;
+}
+.homeBannerItemDivCardTitle {
+  margin: 0 20px;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.imgHomeBannerItemDivCard {
+  margin: 10px 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.imgBannerHomeDiv {
+  height: 144px;
+  width: 144px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgBannerHomeDivImg {
+  width: 100%;
+  height: auto;
+  /* object-fit: cover; */
+}
+.imgBannerImgName {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.seeMoreHomeBanner {
+  margin: 0 30px;
+  font-size: 13px;
+  color: #007185;
+  font-weight: 600;
+}
