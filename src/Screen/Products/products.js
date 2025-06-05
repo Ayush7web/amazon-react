@@ -5,9 +5,8 @@ import StarIcon from "@mui/icons-material/Star";
 import productDetail from "./Products.json";
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "../../redux/actions/actions";
-import { toast,ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Products = () => {
   const dispatch = useDispatch();
@@ -19,7 +18,6 @@ const Products = () => {
 
     dispatch(addToCart(item));
   };
-
 
   return (
     <div className="productPage">
@@ -141,49 +139,51 @@ const Products = () => {
             <span className="productsPageMainRightTopBannerSpan">Macbook</span>
           </div>
           <div className="itemsImageProductPage">
-            {
-            productDetail.product.map(
-              (item, index) => {
-                return (
-                  <div className="itemsImageProductPageOne" key={item.id}>
-                    <div className="imageBlockitemsImageProductPageOne">
-                      <img
-                        src={item.imageUrl}
-                        className="productImageProduct"
-                        alt=""
-                      />
-                    </div>
-                    <div className="productNameProduc">
-                      <div className="productFont">{item.name}</div>
-                    </div>
-                    <div className="productNameProductRating">
-                      <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
-                      <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
-                      <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
-                      <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
-                      <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
-                    </div>
-                    <div className="priceProductDetailPage">
-                      <div className="currenctText">₹</div>
-                      <div className="rateHomeDetail">
-                        <div className="rateHomeDetailPrice">{item.price}</div>
-                        <div className="addtobasketBtn" onClick={()=>{handleAddToCart(item)}}>Add To Cart</div>
+            {productDetail.product.map((item, index) => {
+              return (
+                <div className="itemsImageProductPageOne" key={item.id}>
+                  <div className="imageBlockitemsImageProductPageOne">
+                    <img
+                      src={item.imageUrl}
+                      className="productImageProduct"
+                      alt=""
+                    />
+                  </div>
+                  <div className="productNameProduc">
+                    <div className="productFont">{item.name}</div>
+                  </div>
+                  <div className="productNameProductRating">
+                    <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
+                    <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
+                    <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
+                    <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
+                    <StarIcon sx={{ fontSize: "20px", color: "#febd69" }} />
+                  </div>
+                  <div className="priceProductDetailPage">
+                    <div className="currenctText">₹</div>
+                    <div className="rateHomeDetail">
+                      <div className="rateHomeDetailPrice">{item.price}</div>
+                      <div
+                        className="addtobasketBtn"
+                        onClick={() => {
+                          handleAddToCart(item);
+                        }}
+                      >
+                        Add To Cart
                       </div>
                     </div>
-                    <div className="offProductPage">
-                      up to 100% off on selected cards
-                    </div>
-                    <div className="freeDeliveryHomepage">Free Delivery </div>
                   </div>
-                );
-              })
-            }
-
-            
+                  <div className="offProductPage">
+                    up to 100% off on selected cards
+                  </div>
+                  <div className="freeDeliveryHomepage">Free Delivery </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
-      <ToastContainer/>
+      <ToastContainer />
     </div>
   );
 };
