@@ -11,6 +11,8 @@ import "react-toastify/dist/ReactToastify.css";
 const Products = () => {
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
+  console.log(cartItems);
+
   const handleAddToCart = (item) => {
     toast.success("Added To Cart", {
       position: "bottom-right",

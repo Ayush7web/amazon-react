@@ -7,7 +7,8 @@ import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector } from "react-redux";
+
 
 const NavbarBelt = () => {
   const cartItems = useSelector((state) => state.cart.items);
@@ -16,7 +17,7 @@ const NavbarBelt = () => {
     <div className="navbarBelt">
       <div className="leftNavBelt">
         <Link to={"/"} className="leftNavBeltLogo">
-          <img className="amazonLogoNavbar" src={amaz3_logo} />
+          <img className="amazonLogoNavbar" src={amaz3_logo} alt=""/>
           <span className="navbar_inLogo">.in</span>
         </Link>
 
@@ -59,7 +60,7 @@ const NavbarBelt = () => {
 
       <div className="rightSideNavbarBelt">
         <div className="indianFlagCode">
-          <img src={Indian_flag} className="indianFlag"></img>
+          <img src={Indian_flag} className="indianFlag" alt=""></img>
           <div className="indiaCodeNavbarBelt">
             EN
             <ArrowDropDownOutlinedIcon

@@ -13,6 +13,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71yYP7jS7CL._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -32,6 +33,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/51JMKQGtJfL._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -49,6 +51,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/81f6VbQS+GL._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -66,6 +69,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/7179pAMOsUL._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -83,6 +87,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71n3ZKGSiJL._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -102,6 +107,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71yWRvA3bFL._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -121,6 +127,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71olfKVMo1L._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -140,6 +147,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/716GceOifvL._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -159,6 +167,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71SZIKLsKKL._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -178,6 +187,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71z0G0gHKNL._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -197,6 +207,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71olJxQlgFL._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -225,6 +236,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71d7gqZrY+L._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -244,6 +256,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/716EpVi124L._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -263,6 +276,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71c2eY9nY3L._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -282,6 +296,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71Wnw7s8XHL._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -301,6 +316,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71d7gqZrY+L._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -320,6 +336,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71FqTzf48uL._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -339,6 +356,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71Y4tPF6wCL._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -358,6 +376,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71sJ+cWHjdL._AC_SY400_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -377,6 +396,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/410ARZ0es5L._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -396,6 +416,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71olJxQlgFL._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">
@@ -415,6 +436,7 @@ const HomeDetails = () => {
               <img
                 className="homeDetailLongCardItemImg"
                 src="https://m.media-amazon.com/images/I/71w1jomhLNL._AC_SY200_.jpg"
+                alt=""
               ></img>
               <div className="homeDetailLongCardItemImgDetail">
                 <div className="homeDetailLongCardItemImgTopDetail">

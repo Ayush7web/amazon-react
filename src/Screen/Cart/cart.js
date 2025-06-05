@@ -11,10 +11,14 @@ const Cart = () => {
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
 
-  let a = 0;
-  let cost = cartItems.map((item) => {
-    return (a = a + item.price);
+  let a =0;
+  cartItems.forEach((item) => {
+    a += item.price;
   });
+  // let a = 0;
+  // let cost = cartItems.map((item) => {
+  //   return (a = a + item.price);
+  // });
 
   useEffect(() => {
     setCartItem(cartItems);
